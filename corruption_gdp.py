@@ -28,4 +28,5 @@ df = pd.DataFrame(data = dataset, columns = header)
 X = df.iloc[:, 1:8].values
 denmark = X[1,1:]
 years = ["2017", "2016", "2015", "2014", "2013", "2012"]
+var = []
 
